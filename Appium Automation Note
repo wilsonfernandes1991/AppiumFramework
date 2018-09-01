@@ -1,0 +1,7 @@
+adb shell getprop ro.build.version.release  --> To get OS Version
+
+
+To Do
+1. Swipe Operations
+2. Read OTP from SMS
+3. Capture screenshot for failed Scripts

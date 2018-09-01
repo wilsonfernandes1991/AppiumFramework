@@ -1,0 +1,37 @@
+Android Xpath
+
+//From You Tube
+findElementByXpath(“//android.widget.TextView[@text=\”Connected\”]/preceding::android.widget.TextView[1]”)
+
+By.xpath(“//*[@text=‘Select brigntness’]”)
+
+xpath("//android.widget.Button[contains(@resource-id,'button7')]")
+xpath("//android.widget.Button[@text='clear']")
+Xpath : //android.widget.ImageButton[@content-desc='Back']
+driver.findelement(By.id("id")).getAttribute("content-desc")
+//android.view.View[contains(@content-desc,'completed')] 
+
+
+
+Scripts
+
+var1 = Android.get_text_xpath("//android.widget.TextView[@resource-id='com.qa.android.p2pmobile:id/moneybox_widget_heading_balance']")
+puts "Let us talk about #{var1}."
+
+
+/* Any android.widget.RadioButton with text value 'Use Testdroid Cloud' */
+driver.findElement(By.xpath("//android.widget.RadioButton[@text='Use Testdroid Cloud']")); 
+
+/* Any android.widget.EditText with resource-id value 'com.bitbar.testdroid:id/editText1' */
+driver.findElement(By.xpath("//android.widget.EditText[@resource-id='com.bitbar.testdroid:id/editText1']"));
+
+/* Button index 1, with parent LinearLayout index 2, with parent LinearLayout index 1, with parent ScrollView index 1. */
+driver.findElement(By.xpath("//android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.Button[1]"));
+
+driver.findElement(By.xpath("//android.widget.RelativeLayout[@index='1']/android.widget.ImageView[@index='0']"))
+
+//From You Tube
+findElementByXpath(“//android.widget.TextView[@text=\”Connected\”]/preceding::android.widget.TextView[1]”)
+
+By.xpath(“//*[@text=‘Select brigntness’]”)
+
